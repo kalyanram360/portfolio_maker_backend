@@ -106,7 +106,9 @@ import fetch from "node-fetch";
 export const githubOAuthCallback = async (req, res) => {
   const code = req.query.code;
   const state = req.query.state; // The original page on the frontend
-  const redirectUrl = decodeURIComponent(state || "http://localhost:5173");
+  const redirectUrl = decodeURIComponent(
+    state || "https://portfolio-maker-backend-pnjo.onrender.com"
+  );
 
   if (!code) return res.redirect(`${redirectUrl}?error=NoCode`);
 

@@ -1,0 +1,37 @@
+{
+  "contact_info": {
+    "email": "",
+    "phone": "",
+    "linkedin": "",
+    "github": "",
+    "instagram": "",
+    "location": ""
+  },
+  "home_info": {
+    "name": "hi",
+    "quote": ""
+  },
+  "projects_info": [
+    {
+      "title": "",
+      "description": "",
+      "githubUrl": "",
+      "liveUrl": "",
+      "imageUrl": ""
+    }
+  ],
+  "languages_skills_info": [
+    {
+      "name": "",
+      "icon": "",
+      "level": 50
+    }
+  ],
+  "frameworks_skills_info": [
+    {
+      "name": "",
+      "icon": "",
+      "level": 50
+    }
+  ]
+}

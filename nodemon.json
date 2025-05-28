@@ -1,0 +1,15 @@
+{
+  "ignore": [
+    "public/portfolio_template/node_modules/**",
+    "public/portfolio_template/dist/**",
+    "public/portfolio_template/.vite/**",
+    "public/**",
+    "node_modules/**",
+    "*.log",
+    ".git/**"
+  ],
+  "watch": [
+    "src/**"
+  ],
+  "ext": "js,json,ts"
+}

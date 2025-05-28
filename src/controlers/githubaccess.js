@@ -107,7 +107,7 @@ export const githubOAuthCallback = async (req, res) => {
   const code = req.query.code;
   const state = req.query.state; // The original page on the frontend
   const redirectUrl = decodeURIComponent(
-    state || "https://portfolio-maker-backend-pnjo.onrender.com"
+    state || "https://portfolio-maker-backend-pnjo.onrender.com/json/frontend"
   );
 
   if (!code) return res.redirect(`${redirectUrl}?error=NoCode`);

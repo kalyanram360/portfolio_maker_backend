@@ -39,7 +39,7 @@ const Home = () => {
       </div>
       
       {/* Download resume button */}
-      <a href="#" download>
+      <a href={home_info.resumeUrl} target="_blank" rel="noopener noreferrer"> 
       <button 
         className="bg-cyan-900 text-white px-6 py-3 rounded-full text-2xl font-medium hover:bg-cyan-800 transition-colors duration-300 shadow-lg border border-slate-700/50 flex items-center gap-3"
       >

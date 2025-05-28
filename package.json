@@ -5,10 +5,11 @@
   "license": "ISC",
   "author": "kalyan",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --ignore 'public/**' --ignore '*/node_modules/**' --ignore '*/dist/**' src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon --ignore 'public/**' --ignore '*/node_modules/**' --ignore '*/dist/**' src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "archiver": "^7.0.1",
